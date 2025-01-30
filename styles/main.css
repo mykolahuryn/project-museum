@@ -33,7 +33,7 @@
 .header__image {
   display: grid;
   position: absolute;
-  background-image: url(images/header/header-image.png);
+  background-image: url(/images/header/header-image.png);
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
@@ -578,7 +578,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url(images/main/current-events/image-3.png);
+  background-image: url(/images/main/current-events/image-3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -844,7 +844,7 @@
   justify-content: center;
   text-align: center;
   margin-top: 129px;
-  background-image: url(images/footer/footer-image.png);
+  background-image: url(/images/footer/footer-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
