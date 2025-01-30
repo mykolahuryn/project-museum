@@ -4,7 +4,7 @@
   &__image {
     display: grid;
     position: absolute;
-    background-image: url(../../images/header/header-image.png);
+    background-image: url(/images/header/header-image.png);
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: cover;
@@ -25,18 +25,16 @@
     @include onDesktop {
       height: 655px;
     }
-
   }
 
   &__content {
     @include contentPadingInline;
-    
+
     position: relative;
     margin: 0 auto;
     max-width: $max-width;
     min-width: $min-width;
     box-sizing: border-box;
-
   }
 
   &__top {
@@ -129,7 +127,7 @@
     align-self: flex-start;
     text-transform: uppercase;
     transition: 0.6s;
-  
+
     &:after {
       display: block;
       position: absolute;
@@ -140,18 +138,17 @@
       right: 60px;
       top: 50%;
     }
-  
+
     &:hover {
       color: red;
-  
+
       &:after {
         background-color: red;
       }
     }
-  
+
     @include onDesktop {
       opacity: 1;
     }
   }
-  
 }

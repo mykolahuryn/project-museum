@@ -9,7 +9,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 129px;
-    background-image: url(../../images/footer/footer-image.png);
+    background-image: url(/images/footer/footer-image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,6 @@
     align-items: center;
     width: max-content;
     @include contentPadingInline;
-
   }
 
   &__title {
@@ -76,7 +75,7 @@
 
   &__form {
     display: flex;
-    
+
     &--input {
       padding: 18px 24px;
 
@@ -102,7 +101,6 @@
 
       &::placeholder {
         color: #687480;
-
       }
     }
 
